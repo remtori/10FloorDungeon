@@ -1,0 +1,2 @@
+tellraw @a ["",{"text":"================== 10FloorDungeon ==================","color":"green"},{"text":"\n"},{"text":"Thank for installing the datapack!\nFirst you will need to do some configuration before the dungeon start generating.","color":"white"},{"text":"\n"},{"text":"===================================================","color":"green"},{"text":"\n "}]
+function 10floordungeon:msg/config

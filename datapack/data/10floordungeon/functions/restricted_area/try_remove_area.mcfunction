@@ -1,0 +1,5 @@
+scoreboard players operation @e[tag=10fd_RA] 10fd_id -= RemoveRestrictedAreaId 10fd_settings
+execute as @e[tag=10fd_RA,scores={10fd_id=0}] run tellraw @a ["",{"text":"Successfully remove: ","color":"green"},{"text":"Id: ","color":"aqua"},{"score":{"name":"@s","objective":"10fd_id"},"color":"yellow"},{"text":", ","color":"white"},{"text":"Area:","color":"aqua"},{"text":" ","color":"white"},{"text":"( ","color":"yellow"},{"score":{"name":"@s","objective":"10fd_ra_lx"},"color":"yellow"},{"text":", ","color":"yellow"},{"score":{"name":"@s","objective":"10fd_ra_lz"},"color":"yellow"},{"text":" ) -> ( ","color":"yellow"},{"score":{"name":"@s","objective":"10fd_ra_hx"},"color":"yellow"},{"text":", ","color":"yellow"},{"score":{"name":"@s","objective":"10fd_ra_hz"},"color":"yellow"},{"text":" )","color":"yellow"}]
+kill @e[tag=10fd_RA,scores={10fd_id=0}]
+scoreboard players operation @e[tag=10fd_RA] 10fd_id += RemoveRestrictedAreaId 10fd_settings
+scoreboard players set RemoveRestrictedAreaId 10fd_settings -1

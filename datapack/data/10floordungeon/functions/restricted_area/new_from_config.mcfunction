@@ -1,0 +1,2 @@
+execute at 00000000-3686-2ce8-0000-000001cadcbf run summon area_effect_cloud ~ ~ ~ {CustomName:"\"Restricted Area Marker\"",Duration:-1,Age:-2147483648,WaitTime:-2147483648,Tags:["10ld_initRA"]}
+execute as @e[type=area_effect_cloud,tag=initRA] run function 10floordungeon:restricted_area/apply_data
