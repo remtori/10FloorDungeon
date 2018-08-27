@@ -1,5 +1,6 @@
 {
 	"values": [
-		"10floordungeon:load"
+		"10floordungeon:load",
+		"rtr_util:load"
 	]
 }
