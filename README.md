@@ -19,16 +19,17 @@ ___
 - Will be set to adventure mode
 - 
 ##Floor Theme
-1. Grassy - junglly - vein - cobblly - dirty
+1. Grassy - junglly - vines - cobblly - dirty
 2. cobble - andersite - sprute plank - gravel - stone
 3. 
 ##Monster
+- NO CREAPER ALLOWED
 - Many different class of monster
 - Will has stronger equipment and _maybe_ special ability
 - Will has custom loot will just be raw material (which can be use to craft special equipment @Mojang, please make custom recipe NBT tags compatible)
 ###Monster Classes
 - Archer: Skeleton with insanely strong bow? (skeleton, blaze, stray)
-- Assassin: Invisible with powerful weapon and high agility but low health and no armor (creeper, phantom, silverfish)
+- Assassin: Invisible with powerful weapon and high agility but low health and no armor (phantom, silverfish)
 - Bezerker: Tanky with powerful weapon but slow movement & attack speed (zombie, skeleton, wither_skeleton, stray, vindicator, husk)
 - Knight: With horse (ofcourse) powerful armor, medium health, medium attack damage & speed (zombie, skeleton, stray)
 - Warrior: Melee, high damage per second, medium movement speed, medium health (zombie, skeleton, wither_skeleton, stray, vindicator, husk)

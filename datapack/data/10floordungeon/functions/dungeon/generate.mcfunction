@@ -15,4 +15,10 @@
 #          | | | | | | | | |  \| | | |  _  |  _|   | | | | |  \| |
 #          | |_| | | |_| | | |\  | | |_| | | |___  | |_| | | |\  |
 #          |____/   \___/  |_| \_|  \____| |_____|  \___/  |_| \_|
-                                                        																				                                          
+#
+#
+
+# Need a player as a movable chunk loader
+execute as @s run function 10floordungeon:tp_to_dungeon
+# Fill the 80 x 80 area (5 x 5 chunk) with DIRT
+function 10floordungeon:dungeon/prepare_area/pre_tick

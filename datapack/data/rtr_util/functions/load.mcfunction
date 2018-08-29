@@ -24,7 +24,13 @@ scoreboard players set 2 rtr_num 2
 scoreboard players set 3 rtr_num 3
 scoreboard players set 4 rtr_num 4
 scoreboard players set 5 rtr_num 5
+scoreboard players set 6 rtr_num 6
+scoreboard players set 7 rtr_num 7
+scoreboard players set 8 rtr_num 8
+scoreboard players set 9 rtr_num 9
 scoreboard players set 16 rtr_num 16
+scoreboard players set 20 rtr_num 20
+scoreboard players set 25 rtr_num 25
 scoreboard players set n1 rtr_num -1
 ## Get a seed for random function
 execute store result score Rand_Seed rtr_num run seed

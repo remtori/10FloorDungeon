@@ -1,1 +1,0 @@
-function 10floordungeon:restricted_area/tick
