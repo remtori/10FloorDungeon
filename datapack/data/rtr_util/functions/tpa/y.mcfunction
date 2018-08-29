@@ -53,3 +53,4 @@ execute at @s[scores={rtr_tpa_y=2..}] run tp @s ~ ~2 ~
 scoreboard players remove @s[scores={rtr_tpa_y=2..}] rtr_tpa_y 2
 execute at @s[scores={rtr_tpa_y=1..}] run tp @s ~ ~1 ~
 scoreboard players remove @s[scores={rtr_tpa_y=1..}] rtr_tpa_y 1
+scoreboard players reset @s rtr_tpa_y
