@@ -13,13 +13,18 @@ scoreboard objectives add rtr_tpa_z dummy
 
 ## Init some number for calculation
 ## Random number generator using Linear congruential generator
-scoreboard players set Rand_Range_min rtr_temp 1
-scoreboard players set Rand_Range_max rtr_temp 100000
-scoreboard players set Rand_M rtr_temp 134456  
-scoreboard players set Rand_A rtr_temp 8121 
-scoreboard players set Rand_C rtr_temp 28411 
+scoreboard players set Rand_Range_min rtr_num 1
+scoreboard players set Rand_Range_max rtr_num 100000
+scoreboard players set Rand_M rtr_num 134456  
+scoreboard players set Rand_A rtr_num 8121 
+scoreboard players set Rand_C rtr_num 28411 
 ## Number 
-scoreboard players set 1 rtr_temp 1
-scoreboard players set n1 rtr_temp -1
+scoreboard players set 1 rtr_num 1
+scoreboard players set 2 rtr_num 2
+scoreboard players set 3 rtr_num 3
+scoreboard players set 4 rtr_num 4
+scoreboard players set 5 rtr_num 5
+scoreboard players set 16 rtr_num 16
+scoreboard players set n1 rtr_num -1
 ## Get a seed for random function
-execute store result score Rand_Seed rtr_temp run seed
+execute store result score Rand_Seed rtr_num run seed
