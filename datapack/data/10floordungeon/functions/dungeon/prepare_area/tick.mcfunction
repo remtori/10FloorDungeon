@@ -3,7 +3,7 @@
 # 3: -z
 # 4: -x
 # Fill area
-execute at @s run fill ~ 255 ~ ~15 255 ~15 command_block{Command:"fill ~ 0 ~ ~ 255 ~ stone",auto: 1}
+execute at @s run fill ~ 0 ~ ~15 0 ~15 command_block{Command:"fill ~ 0 ~ ~ 255 ~ stone",auto: 1}
 # Calculate next move
 tellraw @a ["",{"text":"PrepareArea State: ("},{"score":{"name":"PrepareArea","objective":"10fd_state"}},{"text":"/25)"}]
 scoreboard players add PrepareArea 10fd_state 1

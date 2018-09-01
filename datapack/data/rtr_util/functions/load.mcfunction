@@ -1,7 +1,6 @@
 # Function by Remtori
 
 # Init scoreboard 
-scoreboard objectives add rtr_io dummy
 scoreboard objectives add rtr_num dummy
 # You always need a middle man
 scoreboard objectives add rtr_temp dummy
