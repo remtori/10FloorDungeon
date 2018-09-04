@@ -18,6 +18,8 @@ ___
 ## Player
 - Will be set to adventure mode
 - 
+## Traps
+- Floating stone on top of lava lake with some fake ones
 ## Floor Theme
 1. Grassy - junglly - vines - cobblly - dirty
 2. cobble - andersite - sprute plank - gravel - stone
