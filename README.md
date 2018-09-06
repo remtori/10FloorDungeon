@@ -6,10 +6,10 @@ ___
 - Can be update from previous dungeon
 - Had to be fun to play
 
-... + Item / Monster / Neft / Buff has to be balance
-... + Monster strength increase linearly
-... + Can fight on equal footing with enermy on the lowwer floor after a little bit of gridding in the upper floor.
-... + Monster strenght depends on the amount of player (fun to play with multi or just your self)
+⋅⋅⋅ + Item / Monster / Neft / Buff has to be balance
+⋅⋅⋅ + Monster strength increase linearly
+⋅⋅⋅ + Can fight on equal footing with enermy on the lowwer floor after a little bit of gridding in the upper floor.
+⋅⋅⋅ + Monster strenght depends on the amount of player (fun to play with multi or just your self)
 
 ## Dungeon
 - Floor based dungeon
