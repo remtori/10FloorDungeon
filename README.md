@@ -5,6 +5,7 @@ ___
 - Random generated structure with broken portal (which can be fix) to go to 1 main dungeon
 - Can be update from previous dungeon
 - Had to be fun to play
+
 ... + Item / Monster / Neft / Buff has to be balance
 ... + Monster strength increase linearly
 ... + Can fight on equal footing with enermy on the lowwer floor after a little bit of gridding in the upper floor.
